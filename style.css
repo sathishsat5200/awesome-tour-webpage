@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+}
+
+body{
+    scroll-behavior:inherit;
+}
+/* jost font
+font-family: 'Jost', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+
+/* hedvig letter serif 
+font-family: 'Hedvig Letters Serif', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+/* nova square
+font-family: 'Nova Square', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+/* kalam
+font-family: 'Kalam', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/*  space mono
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* merienda
+font-family: 'Merienda', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Backstock/page0.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.main p{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    text-shadow: 3px 3px 1px rgb(218, 218, 231);
+}
+
+.main h1{
+    font-size: 44px;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-shadow: 3px 3px 3px blue;
+}
+body nav{
+    background-color: black;
+    text-align: right;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    z-index: 999;
+  
+}
+body>nav a{
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    padding-left: 15px;
+    color:#ffffff;
+
+}
+body>nav a:hover{
+    color: yellow;
+}
+.main button{
+    height: 40px;
+    width: 180px;
+    font-family: 'Kalam', cursive;
+    background-color: rgb(249, 217, 89);
+    border-radius: 10px;
+}
+.main button:hover{
+    background-color:white;
+}
+.main button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Backstock/page1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-text{
+    color: #ffffff;
+    font-size: 28px;
+
+}
+.home-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.home-wrapper div{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 0px 25px 25px 0px;
+    color: black;
+}
+
+.page2{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(24, 55, 55);
+    color: white;
+}
+.page2-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    gap: 70px;
+}
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+}
+.img-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img-cont .col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.img-cont .col1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 10px solid rgb(242, 255, 0);
+}
+
+.img-cont .col1 img:hover{
+    transform: scale(1.1);
+    border-radius: 50%;
+    border: 10px solid rgb(0, 149, 255);
+}
+.img-cont .col2 img{
+    height: 500px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(76, 80, 1);
+}
+
+.img-cont .col2 img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    border: 10px solid rgb(0, 94, 255);
+}
+.img-cont .col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2-cont2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.page2-cont3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.page2-cont3 img{
+    height: 300px;
+    width: 250px;
+    border: 10px solid rgb(244, 248, 160);
+    border-radius: 50%;
+}
+.page2-cont3 img:hover{
+    transform: scale(1.1);
+    border: 10px solid rgb(210, 219, 39);
+    border-radius: 10%;
+    transition: all 2s ease .5s;
+}
+
+.page3{
+    background-color: rgb(24, 55, 55);
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+.p3-cont1{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+}
+.page3-cont1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.page3-cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-cont-p3{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+.p3-col1 img{
+    height: 200px;
+    width: 300px;
+}
+.p3-col1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.p3-col2 img{
+    height: 400px;
+    width: 250px;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 55, 55);
+    color: #ffffff;
+}
+.page4-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    color: black;
+}
+.page4-text{
+    position: relative;
+    top: 20px;
+}
+.page4-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.page4-col1{
+    height: 500px;
+    width: 350px;
+    background-color: beige;
+    border: 2px solid rgb(223, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.page4-col2 img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+/* page 5 */
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Backstock/mist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page5-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+
+.page5-box{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.page5-box div{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+.page5-box div img{
+    height:150px ;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.page5-box div img:hover{
+    border-radius: 10px;
+}
+.page5-box div p{
+padding: 5px;
+}
+.page6{
+    height:870vh;
+    width: 100%;
+    background-color: rgb(24, 55, 55);
+}
+.page6-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+}
+.page6-text{
+    font-size: 20px;
+    color: white;
+}
+
+.page6-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page6-gallery img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.page6-gallery img:hover{
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: all 1s;
+}
+.page6-gallery>div{
+    height: 50vh;
+    width: 1100px;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page6-gallery div div{
+    height: 250px;
+    width: 270px;
+    background-color: rgb(65, 116, 116);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.page6-gallery div div p{
+    padding: 7px;
+}
+.page7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Backstock/deck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page7-wrapper{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.page7-cont{
+    border: 2px solid black;
+    border-radius:10px;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.page7-cont input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.page7-cont textarea{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.page7-cont button{
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    color: #ffffff;
+    gap: 60px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    font-size: 20px;
+  }
